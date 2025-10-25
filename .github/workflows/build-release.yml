@@ -10,6 +10,7 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     strategy:
+      fail-fast: false
       matrix:
         os: [windows-latest, ubuntu-latest, macos-latest]
 
@@ -25,21 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build for Windows
-        if: matrix.os == 'windows-latest'
-        run: npm run dist:win
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build for macOS
-        if: matrix.os == 'macos-latest'
-        run: npm run dist:mac
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build for Linux
-        if: matrix.os == 'ubuntu-latest'
-        run: npm run dist:linux
+      - name: Build and publish
+        run: npm run dist
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -50,6 +38,7 @@ jobs:
           name: windows-build
           path: |
             dist/*.exe
+            dist/*.exe.blockmap
             dist/latest.yml
 
       - name: Upload macOS artifacts
@@ -59,6 +48,7 @@ jobs:
           name: macos-build
           path: |
             dist/*.dmg
+            dist/*.dmg.blockmap
             dist/latest-mac.yml
 
       - name: Upload Linux artifacts
@@ -71,6 +61,7 @@ jobs:
   publish:
     needs: release
     runs-on: ubuntu-latest
+    if: always()
 
     steps:
       - name: Check out Git repository
@@ -78,6 +69,7 @@ jobs:
 
       - name: Download all artifacts
         uses: actions/download-artifact@v4
+        continue-on-error: true
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
@@ -88,5 +80,6 @@ jobs:
             linux-build/*
           draft: false
           prerelease: false
+          fail_on_unmatched_files: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
