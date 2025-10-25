@@ -6,7 +6,7 @@
 
 <p align="center">
 <a href="https://github.com/Deltaartsstudio/cobblenuuttLauncher/actions">
-<img src="https://img.shields.io/github/actions/workflow/status/Deltaartsstudio/cobblenuuttLauncher/build.yml?branch=main&style=for-the-badge" alt="build">
+<img src="https://img.shields.io/github/actions/workflow/status/Deltaartsstudio/cobblenuuttLauncher/build.yml?branch=master&style=for-the-badge" alt="build">
 </a>
 <a href="https://github.com/Deltaartsstudio/cobblenuuttLauncher/releases">
 <img src="https://img.shields.io/github/downloads/Deltaartsstudio/cobblenuuttLauncher/total.svg?style=for-the-badge" alt="downloads">
