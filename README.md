@@ -11,7 +11,6 @@
 <a href="https://github.com/Deltaartsstudio/cobblenuuttLauncher/releases">
 <img src="https://img.shields.io/github/downloads/Deltaartsstudio/cobblenuuttLauncher/total.svg?style=for-the-badge" alt="downloads">
 </a>
-<img src="https://forthebadge.com/images/badges/made-with-love.svg" height="28px" alt="made-with-love">
 </p>
 
 <p align="center">
