@@ -49,3 +49,9 @@ linux:
 directories:
   buildResources: 'build'
   output: 'dist'
+
+# Publication sur GitHub
+publish:
+  provider: 'github'
+  owner: 'Deltaartsstudio'
+  repo: 'cobblenuuttLauncher'
