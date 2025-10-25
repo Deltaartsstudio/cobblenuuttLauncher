@@ -3136,13 +3136,13 @@ input:checked + .toggleSwitchSlider:before {
     transition-delay:0s;
 }
 
-/* X icon colors. */
-#xSVG:hover,
-#xURL:focus #xSVG {
-    fill: #000000;
+/* TikTok icon colors. */
+#tiktokSVG:hover,
+#tiktokURL:focus #tiktokSVG {
+    fill: #ff0050;
 }
-#xSVG:active {
-    fill: #090909;
+#tiktokSVG:active {
+    fill: #ee0044;
 }
 
 /* Instagram icon colors. */
@@ -3155,14 +3155,6 @@ input:checked + .toggleSwitchSlider:before {
     fill: url('#instaFill')
 }
 
-/* Youtube icon colors. */
-#youtubeSVG:hover,
-#youtubeURL:focus #youtubeSVG {
-    fill: #f00;
-}
-#youtubeSVG:active {
-    fill: #ea0202;
-}
 
 /* Discord icon colors. */
 #discordSVG:hover,

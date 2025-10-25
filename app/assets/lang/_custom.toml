@@ -4,10 +4,9 @@
 title = "CobbleNuutt Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/Deltaartsstudio/cobblenuuttLauncher"
-mediaXURL = "#"
-mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
+mediaGitHubURL = "https://nuutt-cobblemon.com"
+mediaInstagramURL = "https://www.instagram.com/cobblenuutt"
+mediaTikTokURL = "https://www.tiktok.com/@cobblenuutt"
 mediaDiscordURL = "https://discord.gg/npfsQfpYp8"
 
 [ejs.settings]

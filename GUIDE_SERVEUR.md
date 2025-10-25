@@ -125,7 +125,83 @@ Pour chaque mod, ajoutez une entrée dans `modules` :
 
 Vous avez plusieurs options :
 
-### Option 1 : GitHub Pages (Gratuit)
+### Option 1 : Serveur Azuriom (Recommandé) ⭐
+
+**Si vous utilisez Azuriom pour votre site web, vous pouvez héberger tous les fichiers du launcher sur le même serveur !**
+
+#### Structure recommandée
+```
+votre-site.com/
+├── public_html/              (Installation Azuriom)
+│   ├── index.php
+│   ├── feeds/
+│   │   └── rss              (Flux RSS auto-généré par Azuriom)
+│   └── launcher/            (Créez ce dossier pour le launcher)
+│       ├── distribution.json
+│       ├── mods/
+│       │   ├── mod1.jar
+│       │   ├── mod2.jar
+│       │   └── ...
+│       ├── resourcepacks/
+│       │   └── pack.zip
+│       ├── config/
+│       │   └── configs.zip
+│       └── forge/
+│           ├── forge-universal.jar
+│           └── version.json
+```
+
+#### Avantages
+✅ Tout au même endroit, facile à gérer
+✅ Un seul hébergement à payer
+✅ Le flux RSS d'Azuriom est directement accessible
+✅ Gestion via FTP ou panel d'hébergement
+✅ Performances optimales (même serveur)
+
+#### Configuration
+1. **Créer le dossier launcher**
+   - Connectez-vous en FTP à votre hébergement
+   - Dans `public_html/`, créez un dossier `launcher/`
+   - Créez les sous-dossiers : `mods/`, `resourcepacks/`, `config/`, `forge/`
+
+2. **Uploader vos fichiers**
+   - Uploadez vos mods dans `launcher/mods/`
+   - Uploadez vos configs dans `launcher/config/`
+   - Uploadez forge dans `launcher/forge/`
+   - Uploadez le `distribution.json` dans `launcher/`
+
+3. **URLs dans distribution.json**
+   ```json
+   {
+       "rss": "https://votre-site.com/feeds/rss",
+       "servers": [{
+           "modules": [{
+               "artifact": {
+                   "url": "https://votre-site.com/launcher/mods/monmod.jar"
+               }
+           }]
+       }]
+   }
+   ```
+
+4. **URL de la distribution dans le launcher**
+   ```javascript
+   // Dans app/assets/js/distromanager.js
+   exports.REMOTE_DISTRO_URL = 'https://votre-site.com/launcher/distribution.json'
+   ```
+
+#### Plugin Azuriom (Optionnel)
+Il existe des plugins Azuriom pour gérer le launcher directement depuis le panel admin :
+- 📦 **Azuriom Launcher** : Gestion des mods et distribution.json via interface web
+- 🔄 Calcul automatique des MD5
+- 📊 Statistiques de téléchargement
+- 🎨 Interface conviviale
+
+> **Recherchez "launcher" dans les plugins Azuriom** : https://azuriom.com/market/resources
+
+---
+
+### Option 2 : GitHub Pages (Gratuit)
 ```bash
 # 1. Créer un repo GitHub
 # 2. Activer GitHub Pages dans Settings
@@ -133,20 +209,30 @@ Vous avez plusieurs options :
 # 4. URL sera : https://votre-username.github.io/votre-repo/
 ```
 
-### Option 2 : Serveur Web personnel
+⚠️ **Limitation** : GitHub a une limite de 100 MB par fichier. Si vos mods sont volumineux, préférez Option 1 ou 3.
+
+---
+
+### Option 3 : Serveur Web personnel
 - Uploadez via FTP/SFTP
 - Assurez-vous que les fichiers sont accessibles en HTTPS
+- Structure similaire à Option 1
 
-### Option 3 : Services cloud
+---
+
+### Option 4 : Services cloud
 - Google Drive (avec lien direct)
 - Dropbox (avec lien direct)
 - OneDrive
-- **Note :** Certains services peuvent avoir des limitations
+- **Note :** Certains services peuvent avoir des limitations de bande passante
 
-### ⚠️ Important
+---
+
+### ⚠️ Important (Toutes options)
 - Tous les fichiers doivent être accessibles en **HTTPS**
 - Les URLs doivent être **directes** (pas de redirections)
 - Testez chaque URL dans un navigateur avant
+- Vérifiez que votre hébergeur autorise les téléchargements de fichiers .jar
 
 ---
 
