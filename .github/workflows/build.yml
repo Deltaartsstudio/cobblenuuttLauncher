@@ -3,6 +3,11 @@ name: Build & Release
 on:
   push:
     branches: [master]
+    paths:
+      - '.github/workflows/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'src/**'
   workflow_dispatch:
 
 jobs:
