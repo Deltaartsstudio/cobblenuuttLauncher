@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/images/icon.png" width="150px" height="150px" alt="CobbleNuutt Launcher"></p>
+<p align="center"><img src="./app/assets/images/icon.png" width="150px" height="150px" alt="CobbleNuutt Launcher"></p>
 
 <h1 align="center">CobbleNuutt Launcher</h1>
 
