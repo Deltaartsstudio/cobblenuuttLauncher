@@ -8,6 +8,8 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'src/**'
+    tags:
+      - 'v*'
   workflow_dispatch:
 
 jobs:
@@ -45,7 +47,7 @@ jobs:
         run: npm run dist
         shell: bash
 
-      # ⬇️ On n’upload QUE les fichiers voulus
+      # ⬇️ On n'upload QUE les fichiers voulus + fichiers de mise à jour
       - name: Upload build artifacts (filtered)
         uses: actions/upload-artifact@v4
         with:
@@ -58,7 +60,10 @@ jobs:
             dist/**/*.AppImage
             dist/**/*.exe
             dist/**/*.exe.blockmap
-          if-no-files-found: error
+            dist/**/latest.yml
+            dist/**/latest-mac.yml
+            dist/**/latest-linux.yml
+          if-no-files-found: ignore
 
   release:
     name: Create GitHub Release
@@ -83,8 +88,8 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: auto-${{ github.run_number }}
-          name: "Auto Release ${{ github.run_number }}"
+          tag_name: ${{ github.ref_name != '' && startsWith(github.ref, 'refs/tags/') && github.ref_name || format('auto-{0}', github.run_number) }}
+          name: ${{ startsWith(github.ref, 'refs/tags/') && github.ref_name || format('Auto Release {0}', github.run_number) }}
           generate_release_notes: true
           files: |
             artifacts/**/*-arm64.dmg
@@ -94,5 +99,8 @@ jobs:
             artifacts/**/*.AppImage
             artifacts/**/*.exe
             artifacts/**/*.exe.blockmap
+            artifacts/**/latest.yml
+            artifacts/**/latest-mac.yml
+            artifacts/**/latest-linux.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
