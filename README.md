@@ -5,11 +5,11 @@
 <em><h5 align="center">Basé sur HeliosLauncher de dscalzi — Modifié par Delta Arts</h5></em>
 
 <p align="center">
-<a href="https://github.com/TON_USER/CobbleNuutt-Launcher/actions">
-<img src="https://img.shields.io/github/actions/workflow/status/TON_USER/CobbleNuutt-Launcher/build.yml?branch=main&style=for-the-badge" alt="build">
+<a href="https://github.com/Deltaartsstudio/cobblenuuttLauncher/actions">
+<img src="https://img.shields.io/github/actions/workflow/status/Deltaartsstudio/cobblenuuttLauncher/build.yml?branch=main&style=for-the-badge" alt="build">
 </a>
-<a href="https://github.com/TON_USER/CobbleNuutt-Launcher/releases">
-<img src="https://img.shields.io/github/downloads/TON_USER/CobbleNuutt-Launcher/total.svg?style=for-the-badge" alt="downloads">
+<a href="https://github.com/Deltaartsstudio/cobblenuuttLauncher/releases">
+<img src="https://img.shields.io/github/downloads/Deltaartsstudio/cobblenuuttLauncher/total.svg?style=for-the-badge" alt="downloads">
 </a>
 <img src="https://forthebadge.com/images/badges/made-with-love.svg" height="28px" alt="made-with-love">
 </p>
@@ -56,7 +56,7 @@ Lanceur Minecraft moddé simple et automatisé — plus besoin d’installer Jav
 
 ## 📥 Téléchargement
 
-Téléchargez la dernière version depuis les [releases GitHub](https://github.com/TON_USER/CobbleNuutt-Launcher/releases).
+Téléchargez la dernière version depuis les [releases GitHub](https://github.com/Deltaartsstudio/cobblenuuttLauncher/releases).
 
 | Plateforme | Fichier |
 | ----------- | -------- |
@@ -76,8 +76,8 @@ Téléchargez la dernière version depuis les [releases GitHub](https://github.c
 ### Installation du projet
 
 ```bash
-git clone https://github.com/TON_USER/CobbleNuutt-Launcher.git
-cd CobbleNuutt-Launcher
+git clone https://github.com/Deltaartsstudio/cobblenuuttLauncher.git
+cd cobblenuuttLauncher
 npm install
 ```
 
@@ -158,7 +158,7 @@ Ajoutez ce fichier à `.vscode/launch.json` pour activer le débogage :
 
 ## 🤝 Crédits & Remerciements
 
-- 🎨 **Modifié par :** [Delta Arts](https://github.com/TON_USER)  
+- 🎨 **Modifié par :** [Delta Arts](https://github.com/Deltaartsstudio)  
 - 🧩 **Projet original :** [HeliosLauncher](https://github.com/dscalzi/HeliosLauncher) par **dscalzi**
 
 Merci de conserver les crédits du projet d’origine ❤️  
