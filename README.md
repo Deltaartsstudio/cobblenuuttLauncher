@@ -1,4 +1,4 @@
-<p align="center"><img src="./assets/images/logo.png" width="150px" height="150px" alt="CobbleNuutt Launcher"></p>
+<p align="center"><img src="./assets/images/icon.png" width="150px" height="150px" alt="CobbleNuutt Launcher"></p>
 
 <h1 align="center">CobbleNuutt Launcher</h1>
 
@@ -66,42 +66,6 @@ Téléchargez la dernière version depuis les [releases GitHub](https://github.c
 
 ---
 
-## 🧑‍💻 Développement
-
-### Pré-requis
-
-- [Node.js](https://nodejs.org/en/) **v20 ou supérieur**
-
-### Installation du projet
-
-```bash
-git clone https://github.com/Deltaartsstudio/cobblenuuttLauncher.git
-cd cobblenuuttLauncher
-npm install
-```
-
-### Lancer le launcher en mode développement
-
-```bash
-npm start
-```
-
-### Créer les installateurs
-
-Pour votre plateforme actuelle :
-```bash
-npm run dist
-```
-
-Ou pour une plateforme spécifique :
-
-| Plateforme | Commande |
-| ----------- | -------- |
-| Windows x64 | `npm run dist:win` |
-| macOS | `npm run dist:mac` |
-| Linux x64 | `npm run dist:linux` |
-
----
 
 ## ⚙️ Console de débogage
 
@@ -117,41 +81,6 @@ Pour enregistrer la sortie de la console :
 > Clic droit → **Save as...**
 
 ---
-
-## 💡 Développement sous Visual Studio Code
-
-Ajoutez ce fichier à `.vscode/launch.json` pour activer le débogage :
-
-```json
-{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Debug Main Process",
-      "type": "node",
-      "request": "launch",
-      "cwd": "${workspaceFolder}",
-      "program": "${workspaceFolder}/node_modules/electron/cli.js",
-      "args": ["."],
-      "outputCapture": "std"
-    },
-    {
-      "name": "Debug Renderer Process",
-      "type": "chrome",
-      "request": "launch",
-      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
-      "windows": {
-        "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
-      },
-      "runtimeArgs": [
-        "${workspaceFolder}/.",
-        "--remote-debugging-port=9222"
-      ],
-      "webRoot": "${workspaceFolder}"
-    }
-  ]
-}
-```
 
 ---
 
