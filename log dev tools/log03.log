@@ -1,0 +1,21 @@
+
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:21] [Render thread/ERROR]: No data fixer registered for man_o_war
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:21] [Render thread/ERROR]: No data fixer registered for pumpkin_warden
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:21] [Render thread/ERROR]: No data fixer registered for oddion
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:21] [Render thread/ERROR]: No data fixer registered for wreath
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:21] [Render thread/ERROR]: No data fixer registered for biomeswevegone:sign
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:21] [Render thread/ERROR]: No data fixer registered for biomeswevegone:hanging_sign
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:21] [Render thread/ERROR]: No data fixer registered for biomeswevegone:pumpkin_burrow
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:22] [Render thread/ERROR]: No data fixer registered for picture_frame
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:22] [Render thread/ERROR]: No data fixer registered for cobbledollars:cobble_merchant
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:22] [Render thread/ERROR]: No data fixer registered for loot_ball
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Render thread/ERROR]: No data fixer registered for cobblemon:pokemon
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Render thread/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Render thread/ERROR]: No data fixer registered for cobblemon:boat
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Render thread/ERROR]: No data fixer registered for cobblemon:chest_boat
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Render thread/ERROR]: No data fixer registered for cobblemon:poke_bobber
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Render thread/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Render thread/ERROR]: No data fixer registered for cobblemon:npc
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [19:13:23] [Cobblemon Showdown/ERROR]: Uncaught exception in thread "Cobblemon Showdown"
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] java.lang.ExceptionInInitializerError: null
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] Caused by: java.lang.NoSuchMethodError: 'void sun.misc.Unsafe.ensureClassInitialized(java.lang.Class)'

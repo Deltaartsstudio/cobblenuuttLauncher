@@ -530,10 +530,27 @@ function defaultJavaConfig8(ram) {
 }
 
 function defaultJavaConfig17(ram) {
+    // Try to find Java 21 (recommended for Cobblemon and modern mods)
+    let javaExecutable = null
+    const java21Paths = [
+        'C:\\Program Files\\Java\\jdk-21\\bin\\javaw.exe',
+        'C:\\Program Files\\Java\\jre-21\\bin\\javaw.exe',
+        'C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.5.11-hotspot\\bin\\javaw.exe',
+        'C:\\Program Files\\Eclipse Adoptium\\jre-21.0.5.11-hotspot\\bin\\javaw.exe'
+    ]
+
+    for(const javaPath of java21Paths) {
+        if(fs.existsSync(javaPath)) {
+            javaExecutable = javaPath
+            logger.info('Found Java 21 at:', javaPath)
+            break
+        }
+    }
+
     return {
         minRAM: resolveSelectedRAM(ram),
         maxRAM: resolveSelectedRAM(ram),
-        executable: null,
+        executable: javaExecutable,
         jvmOptions: [
             '-XX:+UnlockExperimentalVMOptions',
             '-XX:+UseG1GC',

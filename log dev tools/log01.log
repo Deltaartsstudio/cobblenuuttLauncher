@@ -1,0 +1,723 @@
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:55] [info] [Landing]: Launching game..
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:55] [info] [Landing]: Jvm Details {
+  semver: { major: 24, minor: 0, patch: 1 },
+  semverStr: '24.0.1',
+  vendor: 'Oracle Corporation',
+  path: 'C:\\Program Files\\Java\\jdk-24'
+}
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:56] [info] [Landing]: Refreshing Server Status
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:56] [info] [LaunchSuite]: Validating files.
+landing.js:248 {version: {…}, favicon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAA…/6dD/vzZoXqKv9ViPdzz+A3RZo/W8PQXmAAAAAElFTkSuQmCC', enforcesSecureChat: true, description: {…}, players: {…}, …}
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:56] [info] [ReceiverExecutor]: Receiver process started.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:58] [debug] [Transmitter]: Received validate progress 20
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:58] [debug] [Transmitter]: Received validate progress 40
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:58] [debug] [Transmitter]: Received validate progress 60
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:58] [debug] [Transmitter]: Received validate progress 80
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received validate progress 100
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [info] [Transmitter]: Received validation complete.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [info] [LaunchSuite]: Downloading files.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Expected download size 12808960
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: main.json
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: Default.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: Archer.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: Lumberjack.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: Witch.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: harvestable_axe_blacklist.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: xaerominimap-common.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: xaerominimap.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: xaeroworldmap-common.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: xaeroworldmap.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: Credits.txt
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: LICENSE
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:50:59] [debug] [FullRepairReceiver]: Asset Requires Download: T5a02952
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 3
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 4
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 5
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 6
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 7
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 8
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 9
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 10
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 11
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 12
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 13
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 14
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 15
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 16
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 17
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 18
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 19
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 20
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 21
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 22
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 23
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 24
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 25
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 26
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 27
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 28
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 29
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 30
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 31
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 32
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 33
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 34
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 35
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 36
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 37
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 38
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 39
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 40
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 41
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 42
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 43
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 44
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:50:59] [debug] [Transmitter]: Received download progress 45
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 46
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 47
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 48
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 49
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 50
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 51
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 52
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 53
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 54
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 55
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 56
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 57
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 58
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 59
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 60
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 61
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 62
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 63
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 64
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 65
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 66
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 67
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 68
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 69
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 70
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 71
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 72
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 73
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 74
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 75
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 76
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 77
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 78
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 79
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 80
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 81
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 82
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 83
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 84
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 85
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 86
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 87
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 88
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 89
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 90
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 91
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 92
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 93
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 94
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 95
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 96
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 97
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 98
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [debug] [Transmitter]: Received download progress 99
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset Default.txt declared a size of 577 bytes, but 535 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, Default.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset Archer.txt declared a size of 683 bytes, but 641 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, Archer.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset Lumberjack.txt declared a size of 655 bytes, but 613 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, Lumberjack.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset Witch.txt declared a size of 1115 bytes, but 1073 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, Witch.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset harvestable_axe_blacklist.txt declared a size of 252 bytes, but 245 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, harvestable_axe_blacklist.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset xaerominimap-common.txt declared a size of 145 bytes, but 140 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, xaerominimap-common.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset xaerominimap.txt declared a size of 3658 bytes, but 3525 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, xaerominimap.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset xaeroworldmap-common.txt declared a size of 120 bytes, but 116 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, xaeroworldmap-common.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset xaeroworldmap.txt declared a size of 1218 bytes, but 1163 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, xaeroworldmap.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset Credits.txt declared a size of 695 bytes, but 669 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, Credits.txt may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset LICENSE declared a size of 4922 bytes, but 4838 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, LICENSE may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [warn] [FullRepairReceiver]: Asset T5a02952 declared a size of 12792403 bytes, but 12791498 were received!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [error] [FullRepairReceiver]: Hashes do not match, T5a02952 may be corrupted.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [info] [Transmitter]: Received download complete.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\helios-core\dist\dl\AssetGaurdTransmitter.js:30 [_] [2025-10-26 18:51:00] [info] [ReceiverExecutor]: Disconnect singal received, shutting down.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [info] [LaunchSuite]: Sending selected account (GalaDerad98) to ProcessBuilder.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [info] [ProcessBuilder]: Using liteloader: false
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [info] [ProcessBuilder]: Using fabric loader: true
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [info] [ProcessBuilder]: Launch Arguments: [
+  '-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump',
+  '-Djava.library.path=C:\\Users\\mathi\\AppData\\Local\\Temp\\WCNatives\\a6d0700305bd5d67f3d8b2fcfa8d67c1',
+  '-Djna.tmpdir=C:\\Users\\mathi\\AppData\\Local\\Temp\\WCNatives\\a6d0700305bd5d67f3d8b2fcfa8d67c1',
+  '-Dorg.lwjgl.system.SharedLibraryExtractPath=C:\\Users\\mathi\\AppData\\Local\\Temp\\WCNatives\\a6d0700305bd5d67f3d8b2fcfa8d67c1',
+  '-Dio.netty.native.workdir=C:\\Users\\mathi\\AppData\\Local\\Temp\\WCNatives\\a6d0700305bd5d67f3d8b2fcfa8d67c1',
+  '-Dminecraft.launcher.brand=Helios-Launcher',
+  '-Dminecraft.launcher.version=1.0.5',
+  '-cp',
+  'C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\versions\\1.21.1\\1.21.1.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\github\\oshi\\oshi-core\\6.4.10\\oshi-core-6.4.10.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\google\\code\\gson\\gson\\2.10.1\\gson-2.10.1.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\google\\guava\\failureaccess\\1.0.1\\failureaccess-1.0.1.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\google\\guava\\guava\\32.1.2-jre\\guava-32.1.2-jre.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\ibm\\icu\\icu4j\\73.2\\icu4j-73.2.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\mojang\\authlib\\6.0.54\\authlib-6.0.54.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\mojang\\blocklist\\1.0.10\\blocklist-1.0.10.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\mojang\\brigadier\\1.3.10\\brigadier-1.3.10.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\mojang\\datafixerupper\\8.0.16\\datafixerupper-8.0.16.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\mojang\\logging\\1.2.7\\logging-1.2.7.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\mojang\\patchy\\2.2.10\\patchy-2.2.10.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\com\\mojang\\text2speech\\1.17.9\\text2speech-1.17.9.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\commons-codec\\commons-codec\\1.16.0\\commons-codec-1.16.0.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\commons-io\\commons-io\\2.15.1\\commons-io-2.15.1.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\commons-logging\\commons-logging\\1.2\\commons-logging-1.2.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-buffer\\4.1.97.Final\\netty-buffer-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-codec\\4.1.97.Final\\netty-codec-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-common\\4.1.97.Final\\netty-common-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-handler\\4.1.97.Final\\netty-handler-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-resolver\\4.1.97.Final\\netty-resolver-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-transport-classes-epoll\\4.1.97.Final\\netty-transport-classes-epoll-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-transport-native-unix-common\\4.1.97.Final\\netty-transport-native-unix-common-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\io\\netty\\netty-transport\\4.1.97.Final\\netty-transport-4.1.97.Final.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\it\\unimi\\dsi\\fastutil\\8.5.12\\fastutil-8.5.12.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\net\\java\\dev\\jna\\jna-platform\\5.14.0\\jna-platform-5.14.0.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\net\\java\\dev\\jna\\jna\\5.14.0\\jna-5.14.0.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\net\\sf\\jopt-simple\\jopt-simple\\5.0.4\\jopt-simple-5.0.4.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\apache\\commons\\commons-compress\\1.26.0\\commons-compress-1.26.0.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\apache\\commons\\commons-lang3\\3.14.0\\commons-lang3-3.14.0.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\apache\\httpcomponents\\httpclient\\4.5.13\\httpclient-4.5.13.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\apache\\httpcomponents\\httpcore\\4.4.16\\httpcore-4.4.16.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\apache\\logging\\log4j\\log4j-api\\2.22.1\\log4j-api-2.22.1.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\apache\\logging\\log4j\\log4j-core\\2.22.1\\log4j-core-2.22.1.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\apache\\logging\\log4j\\log4j-slf4j2-impl\\2.22.1\\log4j-slf4j2-impl-2.22.1.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\jcraft\\jorbis\\0.0.17\\jorbis-0.0.17.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\joml\\joml\\1.10.5\\joml-1.10.5.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl-freetype\\3.3.3\\lwjgl-freetype-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl-glfw\\3.3.3\\lwjgl-glfw-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl-jemalloc\\3.3.3\\lwjgl-jemalloc-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl-openal\\3.3.3\\lwjgl-openal-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl-opengl\\3.3.3\\lwjgl-opengl-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl-stb\\3.3.3\\lwjgl-stb-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl-tinyfd\\3.3.3\\lwjgl-tinyfd-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lwjgl\\lwjgl\\3.3.3\\lwjgl-3.3.3.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\lz4\\lz4-java\\1.8.0\\lz4-java-1.8.0.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\slf4j\\slf4j-api\\2.0.9\\slf4j-api-2.0.9.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\net\\fabricmc\\fabric-loader\\0.17.2\\fabric-loader-0.17.2.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\ow2\\asm\\asm\\9.8\\asm-9.8.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\ow2\\asm\\asm-analysis\\9.8\\asm-analysis-9.8.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\ow2\\asm\\asm-commons\\9.8\\asm-commons-9.8.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\ow2\\asm\\asm-tree\\9.8\\asm-tree-9.8.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\org\\ow2\\asm\\asm-util\\9.8\\asm-util-9.8.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\net\\fabricmc\\sponge-mixin\\0.16.3+mixin.0.8.7\\sponge-mixin-0.16.3+mixin.0.8.7.jar;C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\libraries\\net\\fabricmc\\intermediary\\1.21.1\\intermediary-1.21.1.jar',
+  '-DFabricMcEmu= net.minecraft.client.main.Main ',
+  '-Xmx12800M',
+  '-Xms6G',
+  '-XX:+UnlockExperimentalVMOptions',
+  '-XX:+UseG1GC',
+  '-XX:G1NewSizePercent=20',
+  '-XX:G1ReservePercent=20',
+  '-XX:MaxGCPauseMillis=50',
+  '-XX:G1HeapRegionSize=32M',
+  'net.fabricmc.loader.impl.launch.knot.KnotClient',
+  '--username',
+  'GalaDerad98',
+  '--version',
+  'CobbleNuutt-1.21.1',
+  '--gameDir',
+  'C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\instances\\CobbleNuutt-1.21.1',
+  '--assetsDir',
+  'C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\common\\assets',
+  '--assetIndex',
+  '17',
+  '--uuid',
+  '84349c35ca464d5399d78d5b43936f1a',
+  '--accessToken',
+  '**********',
+  '--clientId',
+  '${clientid}',
+  '--xuid',
+  '${auth_xuid}',
+  '--userType',
+  'msa',
+  '--versionType',
+  'release',
+  '--width',
+  1280,
+  '--height',
+  720,
+  '--quickPlayMultiplayer',
+  'Nuuttcobblemon.minesr.com:25565',
+  '--fabric.addMods',
+  '@C:\\Users\\mathi\\AppData\\Roaming\\.CobbleNuuttLauncher\\instances\\CobbleNuutt-1.21.1\\forgeMods.list'
+]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\winston\lib\winston\transports\console.js:90 [2025-10-26 18:51:00] [info] [DiscordWrapper]: Unable to initialize Discord Rich Presence: connection closed 
+Error: connection closed
+    at IPCTransport.<anonymous> (C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\discord-rpc-patch\src\client.js:111:16)
+    at Object.onceWrapper (node:events:633:26)
+    at IPCTransport.emit (node:events:518:28)
+    at C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\discord-rpc-patch\src\transports\ipc.js:141:18
+    at decode (C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\discord-rpc-patch\src\transports\ipc.js:92:5)
+    at Socket.<anonymous> (C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\node_modules\discord-rpc-patch\src\transports\ipc.js:120:7)
+    at Socket.emit (node:events:518:28)
+    at emitReadable_ (node:internal/streams/readable:834:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] ERROR StatusConsoleListener Unable to delete file C:\Users\mathi\AppData\Roaming\.CobbleNuuttLauncher\instances\CobbleNuutt-1.21.1\logs\latest.log: java.nio.file.FileSystemException C:\Users\mathi\AppData\Roaming\.CobbleNuuttLauncher\instances\CobbleNuutt-1.21.1\logs\latest.log: Le processus ne peut pas acc�der au fichier car ce fichier est utilis� par un autre processus
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:01] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
+ [Minecraft] [18:51:01] [main/WARN]: Warnings were found!
+ [Minecraft]  - Mod 'OptiGUI' (optigui) 2.3.0-beta.6.1-modrinth+1.21 recommends any version of animatica, which is missing!
+ [Minecraft] 	 - You should install any version of animatica for the optimal experience.
+ [Minecraft]  - Mod 'Sodium Extra' (sodium-extra) 0.6.0+mc1.21.1 recommends version 1.4.2 or later of reeses-sodium-options, which is missing!
+ [Minecraft] 	 - You should install version 1.4.2 or later of reeses-sodium-options for the optimal experience.
+ [Minecraft] [18:51:01] [main/INFO]: Loading 276 mods:
+ [Minecraft] 	- advancementplaques 1.6.8
+ [Minecraft] 	- architectury 13.0.8
+ [Minecraft] 	- athena 4.0.2
+ [Minecraft] 	- atistructures 1.3.10
+ [Minecraft] 	- badgebox 1.1.1
+ [Minecraft] 	- badpackets 0.8.2
+ [Minecraft] 	- balm 21.0.53
+ [Minecraft] 	   \-- kuma_api 21.0.7
+ [Minecraft] 	- betterdeserttemples 1.21.1-Fabric-4.1.5
+ [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+ [Minecraft] 	- betterfortresses 1.21.1-Fabric-3.1.5
+ [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+ [Minecraft] 	- betterjungletemples 1.21.1-Fabric-3.1.2
+ [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+ [Minecraft] 	- bettermineshafts 1.21.1-Fabric-5.1.1
+ [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+ [Minecraft] 	- betteroceanmonuments 1.21.1-Fabric-4.1.2
+ [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+ [Minecraft] 	- betterstrongholds 1.21.1-Fabric-5.1.3
+ [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+ [Minecraft] 	- betterwitchhuts 1.21.1-Fabric-4.1.1
+ [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+ [Minecraft] 	- biomeswevegone 2.4.8
+ [Minecraft] 	- bobby 5.2.4+mc1.21
+ [Minecraft] 	   |-- com_typesafe_config 1.4.2
+ [Minecraft] 	   |-- fabric-api-base 0.4.42+6573ed8c6a
+ [Minecraft] 	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
+ [Minecraft] 	   |-- io_leangen_geantyref_geantyref 1.3.13
+ [Minecraft] 	   |-- org_spongepowered_configurate-core 4.1.2
+ [Minecraft] 	   \-- org_spongepowered_configurate-hocon 4.1.2
+ [Minecraft] 	- camerapture 1.10.8
+ [Minecraft] 	   \-- io_github_darkxanter_webp-imageio 0.3.2
+ [Minecraft] 	- carryon 2.2.2
+ [Minecraft] 	- chat_heads 0.14.0
+ [Minecraft] 	- chatanimation 1.0.6
+ [Minecraft] 	- chimes 2.0.3
+ [Minecraft] 	- cloth-config 15.0.140
+ [Minecraft] 	   \-- cloth-basic-math 0.6.1
+ [Minecraft] 	- cloudboots 3.0.0
+ [Minecraft] 	- cobbled_counter 1.6.1-fabric-1.6.1
+ [Minecraft] 	- cobbledollars 2.0.0+Beta-5.1+1.21.1
+ [Minecraft] 	- cobblefurnies 0.6.3
+ [Minecraft] 	- cobbleloots 2.0.9
+ [Minecraft] 	- cobblemon 1.6.1+1.21.1
+ [Minecraft] 	- cobblemon-additions 3.9.4
+ [Minecraft] 	- cobblemon-ui-tweaks 1.0.7
+ [Minecraft] 	- cobblemon_droploottables 1.6-fabric-1.4.1
+ [Minecraft] 	- cobblemon_move_inspector 1.2.0
+ [Minecraft] 	- cobblemon_utility 1.6.1
+ [Minecraft] 	- cobblemonintegrations 1.1.3
+ [Minecraft] 	- cobblemonraiddens 0.4.3+1.21.1
+ [Minecraft] 	- cobblemonridingfabric 1.3.7
+ [Minecraft] 	- cobblemonsizevariation 1.2.0
+ [Minecraft] 	- cobblenav 2.2.4
+ [Minecraft] 	- cobblepedia 0.7.0
+ [Minecraft] 	- cobbreeding 1.9.1
+ [Minecraft] 	- collective 8.10
+ [Minecraft] 	- controlling 19.0.5
+ [Minecraft] 	- convenientdecor 0.4.3
+ [Minecraft] 	   \-- omega-config 1.4.4-1.21
+ [Minecraft] 	- corgilib 5.0.0.7
+ [Minecraft] 	   |-- com_electronwill_night-config_core 3.8.2
+ [Minecraft] 	   \-- com_electronwill_night-config_toml 3.8.2
+ [Minecraft] 	- crawl 0.14.9
+ [Minecraft] 	- cristellib 3.0.0
+ [Minecraft] 	   \-- blue_endless_jankson 1.2.3
+ [Minecraft] 	- dataanchor 2.0.0.12
+ [Minecraft] 	- dexrewards 2.0
+ [Minecraft] 	   |-- adventure-platform-fabric 5.14.1
+ [Minecraft] 	   |    |-- net_kyori_adventure-api 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-key 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-platform-api 4.3.3
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-logger-slf4j 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-minimessage 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-ansi 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-gson 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-json 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-plain 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_ansi 1.1.0
+ [Minecraft] 	   |    |-- net_kyori_examination-api 1.3.0
+ [Minecraft] 	   |    |-- net_kyori_examination-string 1.3.0
+ [Minecraft] 	   |    \-- net_kyori_option 1.0.0
+ [Minecraft] 	   |-- fabric-permissions-api-v0 0.3.1
+ [Minecraft] 	   |-- net_kyori_adventure-text-minimessage 4.17.0
+ [Minecraft] 	   |-- placeholder-api 2.4.1+1.21
+ [Minecraft] 	   \-- sgui 1.6.1+1.21.1
+ [Minecraft] 	- emojiful 5.2.1
+ [Minecraft] 	   |-- com_esotericsoftware_yamlbeans_yamlbeans 1.17
+ [Minecraft] 	   \-- midnightlib 1.5.7
+ [Minecraft] 	- enhancedcelestials 6.0.2.5
+ [Minecraft] 	- fabric-api 0.116.7+1.21.1
+ [Minecraft] 	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+ [Minecraft] 	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+ [Minecraft] 	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+ [Minecraft] 	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+ [Minecraft] 	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+ [Minecraft] 	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+ [Minecraft] 	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+ [Minecraft] 	   |-- fabric-commands-v0 0.2.66+df3654b319
+ [Minecraft] 	   |-- fabric-content-registries-v0 8.0.19+b559734419
+ [Minecraft] 	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+ [Minecraft] 	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+ [Minecraft] 	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+ [Minecraft] 	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+ [Minecraft] 	   |-- fabric-data-generation-api-v1 20.2.34+37516cd619
+ [Minecraft] 	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+ [Minecraft] 	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+ [Minecraft] 	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+ [Minecraft] 	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+ [Minecraft] 	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+ [Minecraft] 	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+ [Minecraft] 	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+ [Minecraft] 	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+ [Minecraft] 	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+ [Minecraft] 	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+ [Minecraft] 	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+ [Minecraft] 	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+ [Minecraft] 	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+ [Minecraft] 	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+ [Minecraft] 	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+ [Minecraft] 	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+ [Minecraft] 	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+ [Minecraft] 	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+ [Minecraft] 	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+ [Minecraft] 	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+ [Minecraft] 	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+ [Minecraft] 	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+ [Minecraft] 	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+ [Minecraft] 	   |-- fabric-rendering-v0 1.1.72+df3654b319
+ [Minecraft] 	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+ [Minecraft] 	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+ [Minecraft] 	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+ [Minecraft] 	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+ [Minecraft] 	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+ [Minecraft] 	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+ [Minecraft] 	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+ [Minecraft] 	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+ [Minecraft] 	- fabric-language-kotlin 1.13.6+kotlin.2.2.20
+ [Minecraft] 	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.20
+ [Minecraft] 	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.20
+ [Minecraft] 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.20
+ [Minecraft] 	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.20
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+ [Minecraft] 	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+ [Minecraft] 	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+ [Minecraft] 	- fabricloader 0.17.2
+ [Minecraft] 	   \-- mixinextras 0.5.0
+ [Minecraft] 	- fightfirst 1.1.0
+ [Minecraft] 	- forgeconfigapiport 21.1.4
+ [Minecraft] 	- ftbchunks 2101.1.11
+ [Minecraft] 	- ftbessentials 2101.1.7
+ [Minecraft] 	- ftblibrary 2101.1.21
+ [Minecraft] 	- ftbranks 2101.1.3
+ [Minecraft] 	- ftbteams 2101.1.4
+ [Minecraft] 	- gachamachine 1.1.1
+ [Minecraft] 	- geckolib 4.8.2
+ [Minecraft] 	- genshinstrument 5.0.1
+ [Minecraft] 	- glitchcore 2.1.0.0
+ [Minecraft] 	   \-- net_jodah_typetools 0.6.3
+ [Minecraft] 	- gts 2.4.2
+ [Minecraft] 	   |-- adventure-platform-fabric 5.14.1
+ [Minecraft] 	   |    |-- net_kyori_adventure-api 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-key 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-platform-api 4.3.3
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-logger-slf4j 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-minimessage 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-ansi 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-gson 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-json 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_adventure-text-serializer-plain 4.17.0
+ [Minecraft] 	   |    |-- net_kyori_ansi 1.1.0
+ [Minecraft] 	   |    |-- net_kyori_examination-api 1.3.0
+ [Minecraft] 	   |    |-- net_kyori_examination-string 1.3.0
+ [Minecraft] 	   |    \-- net_kyori_option 1.0.0
+ [Minecraft] 	   |-- fabric-permissions-api-v0 0.3.1
+ [Minecraft] 	   \-- gooeylibs-api 3.1.0
+ [Minecraft] 	- gymbadges 1.1
+ [Minecraft] 	- heartstone 1.21-1.3.0
+ [Minecraft] 	- hopobetterunderwaterruins 1.2.1
+ [Minecraft] 	- iceberg 1.3.2
+ [Minecraft] 	- ipo 5
+ [Minecraft] 	- iris 1.8.8+mc1.21.1
+ [Minecraft] 	   |-- io_github_douira_glsl-transformer 2.0.1
+ [Minecraft] 	   |-- org_anarres_jcpp 1.4.14
+ [Minecraft] 	   \-- org_antlr_antlr4-runtime 4.13.1
+ [Minecraft] 	- item_obliterator 3.1.1
+ [Minecraft] 	- jade 15.10.2+fabric
+ [Minecraft] 	- java 24
+ [Minecraft] 	- justhammers 21.1.1
+ [Minecraft] 	- konkrete 1.9.9
+ [Minecraft] 	- legendarytooltips 1.5.5
+ [Minecraft] 	- lootcrates 3.5.0+1.21
+ [Minecraft] 	- lootr 1.21-1.10.35.91
+ [Minecraft] 	- mega_showdown 10.0.8-release-fabric
+ [Minecraft] 	   \-- supermartijn642configlib 1.1.8
+ [Minecraft] 	- melody 1.0.10
+ [Minecraft] 	- minecraft 1.21.1
+ [Minecraft] 	- modmenu 11.0.3
+ [Minecraft] 	- moogs_structures 1.0.1-1.21-1.21.1-fabric
+ [Minecraft] 	- moonlight 1.21-2.24.5
+ [Minecraft] 	- more_cobblemon_tweaks 1.1.3
+ [Minecraft] 	- mousetweaks 2.26
+ [Minecraft] 	- mr_extra_eeveelutions 1.1.1
+ [Minecraft] 	- mr_tidal_towns 1.3.4
+ [Minecraft] 	- mss 1.3.5-1.21-fabric
+ [Minecraft] - mvs 5.0.1
+ [Minecraft] 	- naturescompass 1.21.1-2.2.7-fabric
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- necronomicon 1.6.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- ohthetreesyoullgrow 5.1.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- optigui 2.3.0-beta.6.1-modrinth+1.21
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- org_apache_commons_commons-text 1.12.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- org_ini4j_ini4j 0.5.4
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- owo 0.12.15.4+1.21
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- io_wispforest_endec 0.1.5.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- io_wispforest_endec_gson 0.1.3.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- io_wispforest_endec_jankson 0.1.3.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- io_wispforest_endec_netty 0.1.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- pasture-loot 1.0.2+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- patchouli 1.21.1-92-FABRIC
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- fiber 0.23.0-2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- paxi 1.21.1-Fabric-5.1.3
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- playerladder 0.7.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- playerxp 1.0.2+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- prism 1.0.11
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- puzzleslib 21.1.38
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- reciperemover 1.0.11
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- resourcepackoverrides 21.1.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- roughlyenoughitems 16.0.799
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- error_notifier 1.0.11
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- safepastures 1.1.0+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- scoremons 2.3.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- seamless_loading_screen 2.2.1+1.21
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- searchables 1.0.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- sereneseasons 10.1.0.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- net_jodah_typetools 0.6.3
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- simpletms 2.1.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- sit 1.21-28
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- sodium 0.6.13+mc1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- sodium-extra 0.6.0+mc1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- sophisticatedbackpacks 1.21.1-3.23.4.3.106
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- sophisticatedcore 1.21.1-1.2.9.20.164
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_conditions 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_core 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_fluids 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_item_abilities 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_lazy_registration 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_level_events 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_loot 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_model_loader 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_render_types 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- porting_lib_transfer 3.1.0-beta.47+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- team_reborn_energy 4.1.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- sophisticatedstorage 1.21.1-1.3.7.6.127
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- starterkit 7.4
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- stoneworks 21.1.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- t_and_t 1.13.7
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- team_preview 1.0.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- terrablender 4.1.0.8
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- tim_core 1.6.1-fabric-1.15.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- toms_storage 2.2.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- cardinal-components-base 6.1.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- cardinal-components-block 6.1.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- trashslot 21.1.4
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- travelerstitles 1.21.1-Fabric-5.1.3
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- treeharvester 9.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- trinkets 3.10.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- cardinal-components-base 6.1.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- cardinal-components-entity 6.1.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- uilib 1.0.1-1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- unchained 1.6.1-fabric-1.5.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- veinmining 5.0.0-beta+1.21
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- spectrelib 0.17.1+1.21
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- voicechat 1.21.1-2.6.6
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- fabric-api-base 0.4.42+6573ed8c6a
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- fabric-command-api-v2 2.2.28+6ced4dd96a
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- voicechat_api 2.6.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- waystones 21.1.23
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- worldedit 7.3.8+6939-7d32b45
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- wthit 12.7.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- wwoo 2.3.4
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- xaerominimap 25.2.10
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- xaeroworldmap 1.39.12
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- ysns 1.0.6
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- yungsapi 1.21.1-Fabric-5.1.6
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- org_javassist_javassist 3.29.2-GA
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- org_reflections_reflections 0.10.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	- zoomify 2.14.6+1.21.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   |-- com_akuleshov7_ktoml-core-jvm 0.5.2
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	   \-- yet_another_config_lib_v3 3.7.1+1.21.1-fabric
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        |-- com_twelvemonkeys_common_common-image 3.12.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        |-- com_twelvemonkeys_common_common-io 3.12.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        |-- com_twelvemonkeys_common_common-lang 3.12.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        |-- org_quiltmc_parsers_gson 0.2.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	        \-- org_quiltmc_parsers_json 0.2.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/mathi/AppData/Roaming/.CobbleNuuttLauncher/common/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:01] [main/INFO]: Compatibility level set to JAVA_17
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:01] [main/INFO]: Compatibility level set to JAVA_21
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'heartstone-common-refmap.json' for heartstone-common.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/INFO]: File exists, reading config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/INFO]: Config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries read successfully.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'just-hammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/INFO]: Loaded configuration file for Sodium: 43 options available, 2 override(s) found
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/INFO]: Loaded configuration file for Sodium Extra: 36 options available, 0 override(s) found
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'stoneworks.common.refmap.json' for stoneworks.common.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'stoneworks.fabric.refmap.json' for stoneworks.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: @Mixin target com.hrznstudio.emojiful.render.EmojiFontRenderer$EmojiCharacterRenderer was not found chat_heads.mixins.json:compat.EmojifulMixin from mod chat_heads
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel/adorn/block/variant/BlockVariantSets)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod cobblemon
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Error loading class: io/github/apace100/apoli/power/factory/condition/ConditionFactory (java.lang.ClassNotFoundException: io/github/apace100/apoli/power/factory/condition/ConditionFactory)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Error loading class: dev/tr7zw/notenoughanimations/animations/fullbody/CrawlingAnimation (java.lang.ClassNotFoundException: dev/tr7zw/notenoughanimations/animations/fullbody/CrawlingAnimation)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: @Mixin target dev.tr7zw.notenoughanimations.animations.fullbody.CrawlingAnimation was not found crawl.compat.nea.mixins.json:CrawlingAnimationMixin from mod crawl
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Error loading class: dev/tr7zw/firstperson/LogicHandler (java.lang.ClassNotFoundException: dev/tr7zw/firstperson/LogicHandler)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: @Mixin target dev.tr7zw.firstperson.LogicHandler was not found crawl.compat.fpm.mixins.json:LogicHandlerMixin from mod crawl
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Error loading class: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: xyz/nucleoid/server/translations/impl/language/SystemDelegatedLanguage)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Force-disabling mixin 'features.gui.screen.LevelLoadingScreenMixin' as rule 'mixin.features.gui.screen' (added by mods [seamless_loading_screen]) disables it and children
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Force-disabling mixin 'features.render.world.sky.FogRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Force-disabling mixin 'features.render.world.sky.ClientLevelMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:02] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+2C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:03] [main/WARN]: Error loading class: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer (java.lang.ClassNotFoundException: com/hrznstudio/emojiful/render/EmojiFontRenderer$EmojiCharacterRenderer)
+2C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:03] [main/WARN]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org/jetbrains/annotations/ApiStatus$Internal)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:03] [main/INFO]: Searching for graphics cards...
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: A restricted method in java.lang.System
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] has been called
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: java.lang.System::loadLibrary has been called by org.lwjgl.system.Library$$Lambda/0x0000025b2122a000 in an unnamed module (file:/C:/Users/mathi/AppData/Roaming/.CobbleNuuttLauncher/common/libraries/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.lwjgl.system.MemoryUtil (file:/C:/Users/mathi/AppData/Roaming/.CobbleNuuttLauncher/common/libraries/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar)
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: Please consider reporting this to the maintainers of class org.lwjgl.system.MemoryUtil
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:97 [Minecraft] [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:03] [main/INFO]: Found graphics adapter: AdapterInfo{vendor=NVIDIA, description='NVIDIA GeForce RTX 3060', adapterType=0x0000031B, openglIcdFilePath='C:\WINDOWS\System32\DriverStore\FileRepository\nvmdi.inf_amd64_f088ae99b5a2f5fd\nvoglv64.dll', openglIcdVersion=32.0.15.8157}
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:03] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS_BROKEN]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:03] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:04] [Datafixer Bootstrap/INFO]: 226 Datafixer optimizations took 309 milliseconds
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:07] [main/WARN]: Method overwrite conflict for scheduleRandomTick in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:07] [main/WARN]: Method overwrite conflict for getScheduledRandomTicks in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Setting user: GalaDerad98
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 25 ms to scan 1 urls, producing 1 keys and 2 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 2 ms to scan 1 urls, producing 1 keys and 2 values
+2C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 2 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 1 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 1 ms to scan 1 urls, producing 1 keys and 3 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+2C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Initializing network...
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Initialized network!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/INFO]: Registering Oh The Biomes We've Gone data components
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/ERROR]: No data fixer registered for man_o_war
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/ERROR]: No data fixer registered for pumpkin_warden
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/ERROR]: No data fixer registered for oddion
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:09] [Render thread/ERROR]: No data fixer registered for wreath
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone items
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Blocks
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Wood
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/ERROR]: No data fixer registered for biomeswevegone:sign
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/ERROR]: No data fixer registered for biomeswevegone:hanging_sign
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/ERROR]: No data fixer registered for biomeswevegone:pumpkin_burrow
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Block Entities
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Entities
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Creative Tabs
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Sounds
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Block Predicate
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone State Providers
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Tree Decorators
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Custom Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Structure Pieces
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Custom Structure Types
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Configured Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Creating and Registering Overworld Vegetation Configured Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Tree Configured Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Creating and Registering Vanilla Configured Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes You'll Go Overworld Configured Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Placed Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Creating and Registering Overworld Tree Placed Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Creating and Registering Overworld Vegetation Placed Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Creating and Registering Vanilla Placed Features
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Custom Surface Rules
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Template Pools
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biome's We've Gone Village Template Pools
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Poi Types
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Villager Professions
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Custom Structure Processors
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone villager types
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Schedules
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Memory Module Types
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Sensor Types
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Map Decoration Types
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Registering Oh The Biomes We've Gone Entity SubPredicates
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/ERROR]: No data fixer registered for picture_frame
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/INFO]: ChatAnimation initialized!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:10] [Render thread/ERROR]: No data fixer registered for cobbledollars:cobble_merchant
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Registering C2S receiver with id cobblefurnies:craft_recipe
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Registering S2C receiver with id cobblefurnies:craftable_recipes_sync
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Config file found, loading values.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: 27 configurations loaded.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Registering sounds
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for loot_ball
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Registering entities
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Registering items
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Launching Cobblemon 1.6.1
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Booting FabricPermissionValidator, permissions will be checked using fabric-permissions-api, see https://github.com/lucko/fabric-permissions-api
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for cobblemon:pokemon
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for cobblemon:empty_pokeball
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for cobblemon:boat
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for cobblemon:chest_boat
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for cobblemon:poke_bobber
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for cobblemon:generic_bedrock
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/ERROR]: No data fixer registered for cobblemon:npc
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Starting the Best Spawner...
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Loaded 7 spawning condition types.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Loaded 6 spawning context types.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Render thread/INFO]: Loaded 2 spawn detail types.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Starting showdown service...
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\moves.js
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\battle-actions.js
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\pokemon.js
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\abilities.js
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\sim\side.js
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\data\conditions.js
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: Loaded fallback file: .\showdown\index.js
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/INFO]: All files are ready!
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] [18:51:11] [Cobblemon Showdown/ERROR]: Uncaught exception in thread "Cobblemon Showdown"
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] java.lang.ExceptionInInitializerError: null
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.io.FileSystem.newDefaultFileSystem(FileSystem.java:486) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.common.battles.runner.graal.GraalShowdownService$createContext$1.<init>(GraalShowdownService.java:75) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.common.battles.runner.graal.GraalShowdownService.createContext(GraalShowdownService.java:73) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.common.battles.runner.graal.GraalShowdownService.openConnection(GraalShowdownService.java:59) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.common.battles.ShowdownThread.run(ShowdownThread.java:40) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] Caused by: java.lang.IllegalStateException: Failed to initialize execution listener class.
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.io.IOHelper.initImpl(IOHelper.java:196) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.io.IOHelper.<clinit>(IOHelper.java:186) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	... 5 more
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] Caused by: java.lang.reflect.InvocationTargetException
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119) ~[?:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.io.IOHelper.initImpl(IOHelper.java:192) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.io.IOHelper.<clinit>(IOHelper.java:186) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	... 5 more
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] Caused by: java.lang.NoSuchMethodError: 'void sun.misc.Unsafe.ensureClassInitialized(java.lang.Class)'
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.library.LibraryFactory.ensureLibraryInitialized(LibraryFactory.java:384) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.library.LibraryFactory.getUncached(LibraryFactory.java:364) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.library.LibraryFactory.<init>(LibraryFactory.java:210) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.interop.InteropLibraryGen.<init>(InteropLibraryGen.java:175) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.interop.InteropLibraryGen.<clinit>(InteropLibraryGen.java:166) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at java.base/java.lang.Class.forName(Class.java:543) ~[?:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.library.LibraryFactory.loadGeneratedClass(LibraryFactory.java:791) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.library.LibraryFactory.resolveImpl(LibraryFactory.java:740) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.library.LibraryFactory.resolve(LibraryFactory.java:733) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.api.interop.InteropLibrary.<clinit>(InteropLibrary.java:2873) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.polyglot.PolyglotValueDispatch.<clinit>(PolyglotValueDispatch.java:156) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.oracle.truffle.polyglot.PolyglotImpl.initialize(PolyglotImpl.java:166) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.impl.AbstractPolyglotImpl.setConstructors(AbstractPolyglotImpl.java:271) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.Engine$1.loadAndValidateProviders(Engine.java:940) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.Engine$1.run(Engine.java:900) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.Engine$1.run(Engine.java:894) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:74) ~[?:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.Engine.initEngineImpl(Engine.java:894) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.Engine$ImplHolder.<clinit>(Engine.java:139) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.Engine.getImpl(Engine.java:363) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[?:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.io.IOHelper.initImpl(IOHelper.java:192) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	at knot/com.cobblemon.mod.relocations.graalvm.polyglot.io.IOHelper.<clinit>(IOHelper.java:186) ~[cobblemon-1.6.1+1.21.1.jar:?]
+C:\Users\mathi\AppData\Local\Programs\CobbleNuutt Launcher\resources\app.asar\app\assets\js\processbuilder.js:93 [Minecraft] 	... 5 more
