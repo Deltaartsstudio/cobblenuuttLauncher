@@ -29,9 +29,10 @@ function initAutoUpdater(event, data) {
     if(isDev){
         autoUpdater.autoInstallOnAppQuit = false
         autoUpdater.updateConfigPath = path.join(__dirname, 'dev-app-update.yml')
-    }
-    if(process.platform === 'darwin'){
-        autoUpdater.autoDownload = false
+    } else {
+        // Enable auto-download on all platforms
+        autoUpdater.autoDownload = true
+        autoUpdater.autoInstallOnAppQuit = false // We'll prompt user instead
     }
     autoUpdater.on('update-available', (info) => {
         event.sender.send('autoUpdateNotification', 'update-available', info)

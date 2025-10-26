@@ -63,6 +63,25 @@ if(!isDev){
                     }
                 })
                 showUpdateUI(info)
+                // Show overlay notification with install button
+                setOverlayContent(
+                    'Mise à jour prête !',
+                    `La version ${info.version} est prête à être installée. Le launcher va redémarrer.`,
+                    'Installer maintenant',
+                    'Plus tard'
+                )
+                setOverlayHandler(() => {
+                    if(!isDev){
+                        ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
+                    } else {
+                        console.error('Cannot install updates in development environment.')
+                        toggleOverlay(false)
+                    }
+                })
+                setDismissHandler(() => {
+                    toggleOverlay(false)
+                })
+                toggleOverlay(true, true)
                 break
             case 'update-not-available':
                 loggerAutoUpdater.info('No new update found.')
@@ -106,10 +125,14 @@ function changeAllowPrerelease(val){
 }
 
 function showUpdateUI(info){
-    //TODO Make this message a bit more informative `${info.version}`
     document.getElementById('image_seal_container').setAttribute('update', true)
     document.getElementById('image_seal_container').onclick = () => {
-        /*setOverlayContent('Update Available', 'A new update for the launcher is available. Would you like to install now?', 'Install', 'Later')
+        setOverlayContent(
+            'Mise à jour disponible',
+            `La version ${info.version} est disponible. Voulez-vous l'installer maintenant ?`,
+            'Installer',
+            'Plus tard'
+        )
         setOverlayHandler(() => {
             if(!isDev){
                 ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
@@ -121,10 +144,7 @@ function showUpdateUI(info){
         setDismissHandler(() => {
             toggleOverlay(false)
         })
-        toggleOverlay(true, true)*/
-        switchView(getCurrentView(), VIEWS.settings, 500, 500, () => {
-            settingsNavItemListener(document.getElementById('settingsNavUpdate'), false)
-        })
+        toggleOverlay(true, true)
     }
 }
 
