@@ -187,63 +187,43 @@ server_selection_button.onclick = async e => {
     await toggleServerSelection(true)
 }
 
-// Update Mojang Status Color
-const refreshMojangStatuses = async function(){
-    loggerLanding.info('Refreshing Mojang Statuses..')
+// Update CobbleNuutt Server Status
+const refreshCobbleNuuttStatus = async function(){
+    loggerLanding.info('Refreshing CobbleNuutt Server Status..')
 
     let status = 'grey'
-    let tooltipEssentialHTML = ''
-    let tooltipNonEssentialHTML = ''
+    let tooltipHTML = ''
 
-    const response = await MojangRestAPI.status()
-    let statuses
-    if(response.responseStatus === RestResponseStatus.SUCCESS) {
-        statuses = response.data
-    } else {
-        loggerLanding.warn('Unable to refresh Mojang service status.')
-        statuses = MojangRestAPI.getDefaultStatuses()
-    }
-    
-    greenCount = 0
-    greyCount = 0
+    try {
+        const serv = (await DistroAPI.getDistribution()).getServerById(ConfigManager.getSelectedServer())
+        const servStat = await getServerStatus(47, serv.hostname, serv.port)
 
-    for(let i=0; i<statuses.length; i++){
-        const service = statuses[i]
-
-        const tooltipHTML = `<div class="mojangStatusContainer">
-            <span class="mojangStatusIcon" style="color: ${MojangRestAPI.statusToHex(service.status)};">&#8226;</span>
-            <span class="mojangStatusName">${service.name}</span>
+        status = 'green'
+        tooltipHTML = `<div class="mojangStatusContainer">
+            <span class="mojangStatusIcon" style="color: #a5c325;">&#8226;</span>
+            <span class="mojangStatusName">Serveur en ligne</span>
+        </div>
+        <div class="mojangStatusContainer">
+            <span class="mojangStatusIcon" style="color: #a5c325;">&#8226;</span>
+            <span class="mojangStatusName">Joueurs: ${servStat.players.online}/${servStat.players.max}</span>
+        </div>
+        <div class="mojangStatusContainer">
+            <span class="mojangStatusIcon" style="color: #a5c325;">&#8226;</span>
+            <span class="mojangStatusName">Version: ${servStat.version.name}</span>
         </div>`
-        if(service.essential){
-            tooltipEssentialHTML += tooltipHTML
-        } else {
-            tooltipNonEssentialHTML += tooltipHTML
-        }
 
-        if(service.status === 'yellow' && status !== 'red'){
-            status = 'yellow'
-        } else if(service.status === 'red'){
-            status = 'red'
-        } else {
-            if(service.status === 'grey'){
-                ++greyCount
-            }
-            ++greenCount
-        }
-
+    } catch(err) {
+        loggerLanding.warn('Unable to refresh CobbleNuutt server status, assuming offline.')
+        loggerLanding.debug(err)
+        status = 'red'
+        tooltipHTML = `<div class="mojangStatusContainer">
+            <span class="mojangStatusIcon" style="color: #c32625;">&#8226;</span>
+            <span class="mojangStatusName">Serveur hors ligne</span>
+        </div>`
     }
 
-    if(greenCount === statuses.length){
-        if(greyCount === statuses.length){
-            status = 'grey'
-        } else {
-            status = 'green'
-        }
-    }
-    
-    document.getElementById('mojangStatusEssentialContainer').innerHTML = tooltipEssentialHTML
-    document.getElementById('mojangStatusNonEssentialContainer').innerHTML = tooltipNonEssentialHTML
-    document.getElementById('mojang_status_icon').style.color = MojangRestAPI.statusToHex(status)
+    document.getElementById('cobbleNuuttStatusContainer').innerHTML = tooltipHTML
+    document.getElementById('cobblenuutt_status_icon').style.color = status === 'green' ? '#a5c325' : '#c32625'
 }
 
 const refreshServerStatus = async (fade = false) => {
@@ -277,11 +257,11 @@ const refreshServerStatus = async (fade = false) => {
     
 }
 
-refreshMojangStatuses()
+refreshCobbleNuuttStatus()
 // Server Status is refreshed in uibinder.js on distributionIndexDone.
 
-// Refresh statuses every hour. The status page itself refreshes every day so...
-let mojangStatusListener = setInterval(() => refreshMojangStatuses(true), 60*60*1000)
+// Refresh statuses every 5 minutes
+let cobbleNuuttStatusListener = setInterval(() => refreshCobbleNuuttStatus(), 5*60*1000)
 // Set refresh rate to once every 5 minutes.
 let serverStatusListener = setInterval(() => refreshServerStatus(true), 300000)
 
