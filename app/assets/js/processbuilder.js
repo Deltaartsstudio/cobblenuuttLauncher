@@ -429,8 +429,13 @@ class ProcessBuilder {
         args.push('-Xmx' + ConfigManager.getMaxRAM(this.server.rawServer.id))
         args.push('-Xms' + ConfigManager.getMinRAM(this.server.rawServer.id))
 
-        // Add Java 21+ compatibility flags for LWJGL
+        // Add Java 21+ compatibility flags for LWJGL and Cobblemon/GraalVM
         args.push('--enable-native-access=ALL-UNNAMED')
+        args.push('--add-opens=java.base/jdk.internal.misc=ALL-UNNAMED')
+        args.push('--add-opens=java.base/sun.nio.ch=ALL-UNNAMED')
+        args.push('--add-opens=java.base/java.lang=ALL-UNNAMED')
+        args.push('--add-exports=java.base/sun.security.util=ALL-UNNAMED')
+        args.push('--add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED')
 
         args = args.concat(ConfigManager.getJVMOptions(this.server.rawServer.id))
 
