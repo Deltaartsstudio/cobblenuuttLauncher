@@ -101,10 +101,17 @@ function setLaunchEnabled(val){
 // Bind launch button
 document.getElementById('launch_button').addEventListener('click', async e => {
     loggerLanding.info('Launching game..')
+    console.log('[DEBUG] Launch button clicked')
     try {
+        console.log('[DEBUG] Getting distribution...')
         const server = (await DistroAPI.getDistribution()).getServerById(ConfigManager.getSelectedServer())
+        console.log('[DEBUG] Server selected:', server ? server.rawServer.id : 'null')
+
         const jExe = ConfigManager.getJavaExecutable(ConfigManager.getSelectedServer())
+        console.log('[DEBUG] Java executable:', jExe)
+
         if(jExe == null){
+            console.log('[DEBUG] No Java executable found, starting system scan')
             await asyncSystemScan(server.effectiveJavaOptions)
         } else {
 
@@ -112,17 +119,21 @@ document.getElementById('launch_button').addEventListener('click', async e => {
             toggleLaunchArea(true)
             setLaunchPercentage(0, 100)
 
+            console.log('[DEBUG] Validating JVM...')
             const details = await validateSelectedJvm(ensureJavaDirIsRoot(jExe), server.effectiveJavaOptions.supported)
             if(details != null){
                 loggerLanding.info('Jvm Details', details)
+                console.log('[DEBUG] JVM validated, starting download async')
                 await dlAsync()
 
             } else {
+                console.log('[DEBUG] JVM validation failed, starting system scan')
                 await asyncSystemScan(server.effectiveJavaOptions)
             }
         }
     } catch(err) {
         loggerLanding.error('Unhandled error in during launch process.', err)
+        console.error('[DEBUG] Launch error:', err)
         showLaunchFailure(Lang.queryJS('landing.launch.failureTitle'), Lang.queryJS('landing.launch.failureText'))
     }
 })
@@ -452,24 +463,32 @@ async function dlAsync(login = true) {
 
     const loggerLaunchSuite = LoggerUtil.getLogger('LaunchSuite')
 
+    console.log('[DEBUG] dlAsync called, login:', login)
     setLaunchDetails(Lang.queryJS('landing.dlAsync.loadingServerInfo'))
 
     let distro
 
     try {
+        console.log('[DEBUG] Refreshing distribution...')
         distro = await DistroAPI.refreshDistributionOrFallback()
         onDistroRefresh(distro)
     } catch(err) {
         loggerLaunchSuite.error('Unable to refresh distribution index.', err)
+        console.error('[DEBUG] Distribution refresh failed:', err)
         showLaunchFailure(Lang.queryJS('landing.dlAsync.fatalError'), Lang.queryJS('landing.dlAsync.unableToLoadDistributionIndex'))
         return
     }
 
     const serv = distro.getServerById(ConfigManager.getSelectedServer())
+    console.log('[DEBUG] Server from distro:', serv ? serv.rawServer.id : 'null')
 
     if(login) {
-        if(ConfigManager.getSelectedAccount() == null){
+        const selectedAccount = ConfigManager.getSelectedAccount()
+        console.log('[DEBUG] Checking account... Selected account:', selectedAccount ? selectedAccount.displayName : 'null')
+        if(selectedAccount == null){
             loggerLanding.error('You must be logged into an account.')
+            console.error('[DEBUG] NO ACCOUNT SELECTED - This is likely the issue!')
+            showLaunchFailure('Compte non connecté', 'Vous devez vous connecter à un compte avant de lancer le jeu.')
             return
         }
     }
