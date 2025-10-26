@@ -198,6 +198,18 @@ const refreshCobbleNuuttStatus = async function(){
         const serv = (await DistroAPI.getDistribution()).getServerById(ConfigManager.getSelectedServer())
         const servStat = await getServerStatus(47, serv.hostname, serv.port)
 
+        // Detect mod loader
+        let modLoader = 'Vanilla'
+        if(serv.modules && serv.modules.length > 0) {
+            const fabricMod = serv.modules.find(m => m.rawModule.type === 'Fabric')
+            const forgeMod = serv.modules.find(m => m.rawModule.type === 'ForgeHosted' || m.rawModule.type === 'Forge')
+            if(fabricMod) {
+                modLoader = 'Fabric'
+            } else if(forgeMod) {
+                modLoader = 'Forge'
+            }
+        }
+
         status = 'green'
         tooltipHTML = `<div class="mojangStatusContainer">
             <span class="mojangStatusIcon" style="color: #a5c325;">&#8226;</span>
@@ -210,6 +222,10 @@ const refreshCobbleNuuttStatus = async function(){
         <div class="mojangStatusContainer">
             <span class="mojangStatusIcon" style="color: #a5c325;">&#8226;</span>
             <span class="mojangStatusName">Version: ${servStat.version.name}</span>
+        </div>
+        <div class="mojangStatusContainer">
+            <span class="mojangStatusIcon" style="color: #a5c325;">&#8226;</span>
+            <span class="mojangStatusName">Mod Loader: ${modLoader}</span>
         </div>`
 
     } catch(err) {
