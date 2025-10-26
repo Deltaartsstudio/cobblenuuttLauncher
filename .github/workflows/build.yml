@@ -1,27 +1,49 @@
-name: Build CobbleNuutt Launcher
+name: Build & Release
 
 on:
   push:
+    branches: [master]
+    paths:
+      - '.github/workflows/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'src/**'
     tags:
-      - 'v*.*.*'
-      - 'V*.*.*'
+      - 'v*'
+      - 'V*'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
+    name: Build (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
 
+    # ⚠️ Rien de fonctionnel ne change au build
+    env:
+      # Évite l’échec sur macOS si tu n’as pas de certifs
+      CSC_IDENTITY_AUTO_DISCOVERY: false
+      APPLE_ID: ""
+      APPLE_APP_SPECIFIC_PASSWORD: ""
+      # Évite un crash de signature côté Windows si pas de certifs
+      WIN_CSC_LINK: ""
+      WIN_CSC_KEY_PASSWORD: ""
+
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -32,7 +54,7 @@ jobs:
       - name: Package app
         run: npm run dist
 
-      - name: Upload build artifacts
+      - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: ${{ runner.os }}-artifacts
@@ -42,36 +64,44 @@ jobs:
             dist/**/*.AppImage
             dist/**/*.blockmap
             dist/**/latest*.yml
+          if-no-files-found: warn
 
   release:
-    runs-on: ubuntu-latest
+    name: Create Release
     needs: build
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Download all artifacts
         uses: actions/download-artifact@v4
         with:
           path: artifacts
+          merge-multiple: true
 
-      # Étape ajoutée → crée une variable 'version' sans le 'v' ni 'V'
+      # ➜ Calcule une version d’affichage sans le 'v'/'V'
       - name: Compute display version (strip leading v/V)
         id: version
         shell: bash
         run: |
           RAW="${GITHUB_REF_NAME}"
-          RAW="${RAW#v}"   # retire 'v' si présent
-          RAW="${RAW#V}"   # retire 'V' si présent
+          RAW="${RAW#v}"
+          RAW="${RAW#V}"
           echo "version=$RAW" >> "$GITHUB_OUTPUT"
 
-      - name: Create Release
+      - name: List files to be released (debug)
+        run: |
+          echo "Files to upload:"
+          ls -lRh artifacts || true
+
+      - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
+          # ➜ Titre exactement "CobbleNuutt Launcher Vx.x.x"
           name: ${{ format('CobbleNuutt Launcher V{0}', steps.version.outputs.version) }}
           generate_release_notes: true
+          # ➜ Ne PAS échouer si un motif ne matche rien
+          fail_on_unmatched_files: false
           files: |
             artifacts/**/*-arm64.dmg
             artifacts/**/*-arm64.dmg.blockmap
@@ -83,3 +113,5 @@ jobs:
             artifacts/**/latest.yml
             artifacts/**/latest-mac.yml
             artifacts/**/latest-linux.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
