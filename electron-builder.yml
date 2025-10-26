@@ -1,6 +1,6 @@
 appId: 'cobblenuuttlauncher'
 productName: 'CobbleNuutt Launcher'
-artifactName: '${productName}-setup-${version}.${ext}'
+artifactName: 'CobbleNuutt-Launcher-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2024 Daniel Scalzi, 2024 Delta Arts'
 
