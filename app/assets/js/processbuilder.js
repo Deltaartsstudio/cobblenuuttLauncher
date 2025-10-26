@@ -428,6 +428,10 @@ class ProcessBuilder {
         }
         args.push('-Xmx' + ConfigManager.getMaxRAM(this.server.rawServer.id))
         args.push('-Xms' + ConfigManager.getMinRAM(this.server.rawServer.id))
+
+        // Add Java 21+ compatibility flags for LWJGL
+        args.push('--enable-native-access=ALL-UNNAMED')
+
         args = args.concat(ConfigManager.getJVMOptions(this.server.rawServer.id))
 
         // Main Java Class
