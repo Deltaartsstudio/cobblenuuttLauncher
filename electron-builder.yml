@@ -16,11 +16,16 @@ extraResources:
 # Windows Configuration
 win:
   target:
-    - target: 'nsis'
-      arch: 'x64'
-  sign: null
-  signingHashAlgorithms:
-    - sha256
+    - target: nsis
+      arch:
+        - x64
+  # Facultatif mais utile :
+  signAndEditExecutable: true
+  # Remplace l'ancien "signingHashAlgorithms" par ceci :
+  signtoolOptions:
+    timeStampServer: "http://timestamp.sectigo.com"
+    digestAlgorithm: "sha256"
+    timestampDigestAlgorithm: "sha256"
 
 # Windows Installer Configuration
 nsis:

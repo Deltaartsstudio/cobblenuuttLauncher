@@ -42,50 +42,21 @@ jobs:
         shell: bash
 
       - name: Build
+        if: matrix.os == 'windows-latest'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CSC_LINK: ${{ secrets.CSC_LINK }}
+          CSC_KEY_PASSWORD: ${{ secrets.CSC_KEY_PASSWORD }}
+        run: npm run dist
+        shell: bash
+      - name: Build
+        if: matrix.os != 'windows-latest'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run dist
         shell: bash
 
-      # 🔒 Étape 1 : Recréer le certificat PFX depuis le secret (Windows uniquement)
-      - name: Recreate PFX certificate
-        if: matrix.os == 'windows-latest'
-        shell: pwsh
-        run: |
-          # On écrit la valeur Base64 dans un fichier texte
-          Set-Content -Path "encoded.txt" -Value $env:PFX_BASE64
-          # On décode le contenu en fichier .pfx
-          certutil -decode "encoded.txt" "DeltaArts-Cobblenuutt.pfx"
-          # On supprime le fichier temporaire
-          Remove-Item "encoded.txt"
-        env:
-          PFX_BASE64: ${{ secrets.PFX_BASE64 }}
-
-      # 🔒 Étape 2 : Signer les exécutables Windows (.exe)
-      - name: Sign Windows executables
-        if: matrix.os == 'windows-latest'
-        run: |
-          Get-ChildItem "dist" -Filter "*.exe" -Recurse | ForEach-Object {
-            & "C:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe" sign `
-              /f DeltaArts-Cobblenuutt.pfx `
-              /p $env:PFX_PASSWORD `
-              /fd SHA256 `
-              /tr http://timestamp.sectigo.com `
-              /td SHA256 `
-              $_.FullName
-          }
-        env:
-          PFX_PASSWORD: ${{ secrets.PFX_PASSWORD }}
-
-      # 🔒 Étape 3 (optionnelle) : Vérifier les signatures
-      - name: Verify signatures
-        if: matrix.os == 'windows-latest'
-        run: |
-          Get-ChildItem "dist" -Filter "*.exe" -Recurse | ForEach-Object {
-            & "C:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe" verify /pa $_.FullName
-          }
-
-      # ⬇️ Upload des builds signés (inchangé)
+      # ⬇️ On n'upload QUE les fichiers voulus + fichiers de mise à jour
       - name: Upload build artifacts (filtered)
         uses: actions/upload-artifact@v4
         with:
@@ -117,6 +88,7 @@ jobs:
           path: ./artifacts
           merge-multiple: true
 
+      # (Optionnel) Vérifier ce qui sera publié
       - name: List files to be released
         run: |
           echo "Files to upload:"
