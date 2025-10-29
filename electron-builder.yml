@@ -20,10 +20,9 @@ win:
       arch:
         - x64
   signAndEditExecutable: true
-  signtoolOptions:
-    timeStampServer: "http://timestamp.sectigo.com"
-    digestAlgorithm: "sha256"
-    timestampDigestAlgorithm: "sha256"
+  signingHashAlgorithms:
+    - sha256
+  timeStampServer: "http://timestamp.sectigo.com"
 
 # Windows Installer Configuration
 nsis:
