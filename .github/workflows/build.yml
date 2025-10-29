@@ -51,10 +51,10 @@ jobs:
       - name: Recreate PFX certificate
         if: matrix.os == 'windows-latest'
         run: |
-          echo $env:PFX_BASE64 | certutil -decode - DeltaArts-Cobblenuutt.pfx
+          echo $env:PFX_BASE64 > encoded.txt
+          certutil -decode encoded.txt DeltaArts-Cobblenuutt.pfx
         env:
           PFX_BASE64: ${{ secrets.PFX_BASE64 }}
-
       # 🔒 Étape 2 : Signer les exécutables Windows (.exe)
       - name: Sign Windows executables
         if: matrix.os == 'windows-latest'
