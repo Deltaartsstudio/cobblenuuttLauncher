@@ -19,9 +19,7 @@ win:
     - target: nsis
       arch:
         - x64
-  # Facultatif mais utile :
   signAndEditExecutable: true
-  # Remplace l'ancien "signingHashAlgorithms" par ceci :
   signtoolOptions:
     timeStampServer: "http://timestamp.sectigo.com"
     digestAlgorithm: "sha256"
