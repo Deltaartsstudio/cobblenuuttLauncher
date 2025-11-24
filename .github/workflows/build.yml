@@ -82,6 +82,16 @@ jobs:
           tag_name: ${{ github.ref_name }}
           name: Cobblenuutt Launcher ${{ github.ref_name }}
           generate_release_notes: true
-          files: artifacts/**/*
+          files: |
+            artifacts/**/*-arm64.dmg
+            artifacts/**/*-arm64.dmg.blockmap
+            artifacts/**/*-x64.dmg
+            artifacts/**/*-x64.dmg.blockmap
+            artifacts/**/*.AppImage
+            artifacts/**/*.exe
+            artifacts/**/*.exe.blockmap
+            artifacts/**/latest.yml
+            artifacts/**/latest-mac.yml
+            artifacts/**/latest-linux.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
